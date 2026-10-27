@@ -1,5 +1,5 @@
-
 public class CarDemoWithLombok {
+
 
     public static void main(String[] args) {
 
@@ -45,5 +45,6 @@ public class CarDemoWithLombok {
                 "The HashCode of this object is: " + car2.hashCode()
         );
     }
-}
 
+
+}

@@ -1,4 +1,3 @@
-
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -12,6 +11,7 @@ import lombok.ToString;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class CarWithLombok {
 
+
     private String model;
     private String brand;
     private int year;
@@ -19,9 +19,5 @@ public class CarWithLombok {
     private String color;
     private int quantity;
 
-    @EqualsAndHashCode.Include
-    private String equalityKey() {
-        return "Car";
-    }
-}
 
+}
